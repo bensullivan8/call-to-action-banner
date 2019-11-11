@@ -6,7 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-.btn {
+.btn-big {
   font-size: 1.5rem;
   padding: .5em .75em;
   border-radius: 8px;
@@ -16,6 +16,24 @@ html {
   text-decoration: none;
 }
 
-.btn:hover {
+.btn-big:hover {
   background-color: #000;
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 3rem;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+  font-size: 1.5rem;
+}
+
+.banner {
+  max-height: 500px;
+}
+
+.content {
+  max-width: 45em;
 }
