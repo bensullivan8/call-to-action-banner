@@ -6,7 +6,7 @@ html {
   box-sizing: inherit;
 }
 
-body {
+.banner {
   margin: 0;
   width: 100%;
 }
@@ -15,8 +15,8 @@ body {
   position: relative;
   display: flex;
   width: 100%;
-  max-width: 45em;
   margin: 0;
+  overflow: hidden;
 }
 
 .img {
@@ -27,16 +27,18 @@ body {
   transform: translateX(-50%);
 }
 
-.banner {
-  max-height: 500px;
+.content {
+  max-width: 45em;
   display: flex;
   position: absolute;
   left: 50%;
-  top: 20%;
+  top: 50%;
   transform: translateX(-50%);
+  align-items: center;
+  justify-content: center;
 }
 
-.content {
+.text {
   max-width: 45em;
 }
 
